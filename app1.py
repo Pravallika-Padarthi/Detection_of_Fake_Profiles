@@ -82,7 +82,7 @@ if st.button("🔍 Predict"):
         'followers_count': [followers_count],
         'friends_count': [friends_count],
         'favourites_count': [favourites_count],
-	'account_age_days': [account_age_days]
+	'account_age': [account_age_days]
     })
 
     prediction = model.predict(input_df)
