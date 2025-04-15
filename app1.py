@@ -89,9 +89,9 @@ if st.button("🔍 Predict"):
     confidence = model.predict_proba(input_df)[0][prediction[0]]
 
     if prediction[0] == 1:
-        st.success(f" The profile is **Fake**.")
+        st.success(f" The profile is **Genuine**.")
     else:
-        st.error(f" The profile is **Genuine**.")
+        st.error(f" The profile is **Fake**.")
 
 
 # Footer
