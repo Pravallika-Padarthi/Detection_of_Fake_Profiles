@@ -69,7 +69,8 @@ statuses_count = st.number_input("Statuses Count", min_value=0, step=1, value=0)
 followers_count = st.number_input("Followers Count", min_value=0, step=1, value=0)
 friends_count = st.number_input(" Friends Count", min_value=0, step=1, value=0)
 favourites_count = st.number_input("Favourites Count", min_value=0, step=1, value=0)
-account_creation_date = st.date_input("Account Creation Date")
+account_creation_date = st.date_input("Account Creation Date", min_value=datetime(2006, 3, 21), max_value=datetime(2025, 4, 10))
+
 
 # Predict Button
 if st.button("🔍 Predict"):
