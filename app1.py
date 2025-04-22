@@ -9,7 +9,7 @@ import pandas as pd
 
 
 # Streamlit UI setup
-st.set_page_config(page_title="Detection of Fake Profiles in X(formerly Twitter)", page_icon="🤖", layout="wide")
+st.set_page_config(page_title="Fake Profile Detection)", page_icon="🤖", layout="wide")
 
 # Load Random Forest model
 @st.cache_resource
@@ -49,7 +49,7 @@ st.sidebar.title("👤 Profile Inspector")
 st.sidebar.write("This tool uses **Machine Learning** to detect fake profiles on X(formerly Twitter) based on profile stats.")
 
 # Main Content
-st.title("Fake Profile Detection")
+st.title("Detection of Fake Profiles in X(formerly Twitter")
 st.write("Enter the user details below to predict whether the X(formerly Twitter) profile is **Fake** or **Genuine**.")
 
 # Input Fields
