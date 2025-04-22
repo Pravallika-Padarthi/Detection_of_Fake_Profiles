@@ -9,7 +9,7 @@ import pandas as pd
 
 
 # Streamlit UI setup
-st.set_page_config(page_title="Fake Profile Detection", page_icon="🤖", layout="wide")
+st.set_page_config(page_title="Detection of Fake Profiles in X(formerly Twitter)", page_icon="🤖", layout="wide")
 
 # Load Random Forest model
 @st.cache_resource
